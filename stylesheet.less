@@ -552,13 +552,9 @@ time.blog-post-published-date, footer.blog-post-metadata time {
     text-align: center;
     .productlist-display-form {
         text-align: left;
-        @media only screen and (max-width: 780px) {
-            border: 1px solid darken(@color-swatch1,7%);
-            background-color: darken(@color-swatch1,3%);
-            padding: 2em;
-            width: 100%;
-            margin: 1% 0 0 3%;
-        }
+        border: 1px solid darken(@color-swatch1,7%);
+        background-color: darken(@color-swatch1,3%);
+        padding: 2em;
         @media @mobile {
             margin: 0;
         }
@@ -579,6 +575,7 @@ time.blog-post-published-date, footer.blog-post-metadata time {
     }
     .productlist-item-count {
         text-align: left;
+        margin: 3%;
         @media only screen and (max-width: 780px) {
             margin:3%;
         }
