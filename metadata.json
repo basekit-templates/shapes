@@ -1,0 +1,148 @@
+{
+    "name":"Shapes",
+    "thumbnail":"shapes.png",
+    "screenshot":"shapes.png",
+    "pageTypes": ["default", "home"],
+    "templateType":"menu",
+    "tags": {
+    "en": ["clean", "menu", "cafe", "bar", "restaurant"],
+    "es": ["limpio", "menú", "cafetería", "bar", "restaurante"],
+    "br": ["limpo", "menu", "cafeteria", "bar", "restaurante"]
+    },
+    "colorSwatches":
+    {
+        "Swatch 1": {
+            "color1":"#ffffff",
+            "color2":"#e1e1e1",
+            "color3":"#ed6174",
+            "color4":"#5e5c58",
+            "color5":"#a19e99",
+            "color6":"#5e5c58",
+            "color7":"#ffffff"
+        },
+        "Swatch 2": {
+            "color1":"#f7f5f2",
+            "color2":"#E2DCD4",
+            "color3":"#5EBBBA",
+            "color4":"#134949",
+            "color5":"#868584",
+            "color6":"#41807F",
+            "color7":"#ffffff"
+        },
+        "Swatch 3": {
+            "color1":"#ffffff",
+            "color2":"#F07E7E",
+            "color3":"#F07E7E",
+            "color4":"#706666",
+            "color5":"#868584",
+            "color6":"#706666",
+            "color7":"#FAF8F8"
+        },
+        "Swatch 4": {
+            "color1":"#f7f5f2",
+            "color2":"#F3EEE7",
+            "color3":"#FF9B51",
+            "color4":"#6D645D",
+            "color5":"#7A6753",
+            "color6":"#6D645D",
+            "color7":"#ffffff"
+        },
+        "Swatch 5": {
+            "color1":"#FCFBF5",
+            "color2":"#F3F2E8",
+            "color3":"#4C64A2",
+            "color4":"#4E5974",
+            "color5":"#797D87",
+            "color6":"#4E5974",
+            "color7":"#FCFBF5"
+        }
+    },
+    "fontSwatch": {
+       "title": "Glegoo",
+        "font1": {
+            "font-family": "\"Glegoo\", Monaco, \"Lucida Console\", monospace",
+            "font-size": "28px",
+            "font-weight": "400",
+            "line-height": "40px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font2": {
+            "font-family": "\"Glegoo\", Monaco, \"Lucida Console\", monospace",
+            "font-size": "26px",
+            "font-weight": "inherit",
+            "line-height": "38px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font3": {
+            "font-family": "\"Glegoo\", Monaco, \"Lucida Console\", monospace",
+            "font-size": "20px",
+            "font-weight": "400",
+            "line-height": "20px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font4": {
+            "font-family": "\"Helvetica\", Arial, sans-serif",
+            "font-size": "14px",
+            "font-weight": "400",
+            "line-height": "26px",
+            "color": "@color-swatch5",
+            "letter-spacing": "inherit"
+        },
+        "font5": {
+            "font-family": "\"Helvetica\", Arial, sans-serif",
+            "font-size": "14px",
+            "font-weight": "400",
+            "line-height": "26px",
+            "color": "@color-swatch5",
+            "letter-spacing": "inherit"
+        },
+        "font6": {
+            "font-family": "\"Glegoo\", Monaco, \"Lucida Console\", monospace",
+            "font-size": "14px",
+            "font-weight": "400",
+            "line-height": "26px",
+            "color": "@color-swatch6",
+            "color-hover": "darken(@color-swatch6,20%)",
+            "letter-spacing": "inherit",
+            "background-color": "@color-swatch7",
+            "background-color-hover": "@color-swatch7"
+        },
+        "font7": {
+            "font-family": "\"Helvetica\", Arial, sans-serif",
+            "font-size": "14px",
+            "font-weight": "400",
+            "line-height": "26px",
+            "color": "@color-swatch7",
+            "letter-spacing": "inherit",
+            "background-color": "@color-swatch3",
+            "background-color-hover": "darken(@color-swatch3,5%)"
+        },
+        "font8": {
+            "font-family": "\"Glegoo\", Monaco, \"Lucida Console\", monospace",
+            "font-size": "18px",
+            "font-weight": "400",
+            "line-height": "30px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font9": {
+            "font-family": "\"Helvetica\", Arial, sans-serif",
+            "font-size": "14px",
+            "font-weight": "400",
+            "line-height": "26px",
+            "color": "@color-swatch5",
+            "letter-spacing": "inherit"
+        },
+        "font10": {
+            "font-family": "\"Glegoo\", Monaco, \"Lucida Console\", monospace",
+            "font-size": "24px",
+            "font-weight": "400",
+            "line-height": "36px",
+            "color": "@color-swatch6",
+            "letter-spacing": "inherit"
+        }
+    }
+}
