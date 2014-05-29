@@ -62,9 +62,9 @@
        "title": "Glegoo",
         "font1": {
             "font-family": "\"Glegoo\", Monaco, \"Lucida Console\", monospace",
-            "font-size": "28px",
+            "font-size": "26px",
             "font-weight": "400",
-            "line-height": "40px",
+            "line-height": "38px",
             "color": "@color-swatch4",
             "letter-spacing": "inherit"
         },
