@@ -165,7 +165,8 @@
 button.btn, 
 .widget.profile form button, 
 .signupform fieldset button, 
-.contactform button.btn, .btn, 
+.contactform button.btn, 
+.btn, 
 .blogsearch form button, 
 .checkout-order-button, 
 .checkout-empty-link 
@@ -559,6 +560,11 @@ time.blog-post-published-date, footer.blog-post-metadata time {
             margin: 0;
         }
         .form-group {
+            width: 31.8%;
+            text-align: center;
+            @media only screen and (max-width: 780px) {
+                width:100%;
+            }
             label {
                 @media only screen and (max-width: 780px) {
                     width: 100%;
@@ -567,9 +573,7 @@ time.blog-post-published-date, footer.blog-post-metadata time {
             }
             select {
                 display: inline-block;
-                @media only screen and (max-width: 780px) {
-                    width:100%;
-                }
+                width: 100%;
             }
         }
     }
@@ -640,8 +644,11 @@ time.blog-post-published-date, footer.blog-post-metadata time {
             padding: 1em;
         }
     }
-    .checkout-empty p {
-        padding: 2em 0;
+    .checkout-empty {
+        text-align: center;
+        p {
+            padding: 2em 0;
+        }
     }
     table {
         tr {
