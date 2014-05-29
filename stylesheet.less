@@ -89,6 +89,9 @@
         line-height: @font-swatch8-line-height;
         color: @font-swatch8-color;
         letter-spacing: @font-swatch8-letter-spacing;
+        &:hover {
+            text-decoration: none;
+        }
     }
     span.image-description {
         font-family: @font-swatch9-font-family;
@@ -97,6 +100,15 @@
         line-height: @font-swatch9-line-height;
         color: @font-swatch9-color;
         letter-spacing: @font-swatch9-letter-spacing;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    &:hover {
+        span.image-title, span.image-description {
+            text-decoration: none;
+            color: @color-swatch3;
+        }
     }
 }
 
