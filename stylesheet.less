@@ -36,31 +36,54 @@
    EXTENDED NAVIGATION
    =============================== */
 
-.widget.extendednavigation {
-    margin: 2% 5%;
-    width: 90%;
-    @media @tablet {
-        margin: 0 5%;
-        min-height: 45px;
-    }
-    ul {
-        li {
-            float: none;
-            display: inline-block;
-
+.widget {
+    &.extendednavigation {
+        margin: 2% 5%;
+        width: 90%;
+        @media @tablet {
+            margin: 0 5%;
+            min-height: 45px;
         }
-    }
-    a {
-        &.pull {
-            @media @tablet {
-                top: 15px;
-                left: 50%;
-                width: 26px;
-                margin-left: -13px;
+        ul {
+            li {
+                float: none;
+                display: inline-block;
+            }
+            li:hover ul {
+                border: 1px solid darken(@color-swatch2,3%);
+                li {
+                    padding: 5px;
+                    &:first-child {
+                        padding-top: 10px;
+                        @media @tablet {
+                            padding-top: 1em;
+                        }
+                    }
+                    &:last-child {
+                        padding-bottom: 10px;
+                        @media @tablet {
+                            padding-bottom: 1em;
+                        }
+                    }
+                    @media @tablet {
+                        padding: 1em 0;
+                    }
+                }
+            }
+        }
+        a {
+            &.pull {
+                @media @tablet {
+                    top: 15px;
+                    left: 50%;
+                    width: 26px;
+                    margin-left: -13px;
+                }
             }
         }
     }
 }
+
 
 /* ===============================
    HEADER
