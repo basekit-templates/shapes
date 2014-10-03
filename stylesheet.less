@@ -92,6 +92,18 @@
     }
 }
 
+/* Selected state */
+
+.extendednavigation ul li.folder.selected ul li .text {
+    color: @font-swatch6-color;
+}
+
+.extendednavigation ul li.selected, .extendednavigation ul li:hover ul li.selected, .extendednavigation ul li.folder.selected ul li.selected, .extendednavigation ul li.folder.selected {
+    a, .text {
+        color: @font-swatch6-color-hover;
+    }
+}
+
 /* ===============================
    HEADER
    =============================== */
@@ -115,7 +127,7 @@ header.bk-header.clearfix {
    FEATURE = IMAGE WIDGET
    =============================== */
 
-.widget.image {
+.widget.image, .widget .image {
     img.image {
         margin-bottom: 1.5em;
     }
@@ -127,9 +139,6 @@ header.bk-header.clearfix {
         line-height: @font-swatch8-line-height;
         color: @font-swatch8-color;
         letter-spacing: @font-swatch8-letter-spacing;
-        &:hover {
-            text-decoration: none;
-        }
     }
     span.image-description {
         font-family: @font-swatch9-font-family;
@@ -138,15 +147,9 @@ header.bk-header.clearfix {
         line-height: @font-swatch9-line-height;
         color: @font-swatch9-color;
         letter-spacing: @font-swatch9-letter-spacing;
-        &:hover {
-            text-decoration: none;
-        }
     }
-    &:hover {
-        span.image-title, span.image-description {
-            text-decoration: none;
-            color: @color-swatch3;
-        }
+    a:hover {
+        text-decoration: none;
     }
 }
 
@@ -645,11 +648,11 @@ time.blog-post-published-date, footer.blog-post-metadata time {
 }
 
 time.blog-post-published-date {
-    margin: 0 0 1.5em;
+    margin: 2em 0 1.5em;
 }
 
-footer.blog-post-metadata time {
-    margin: 2em 0 1.5em;
+.widget.blogpost footer.blog-post-metadata time {
+    margin: 1.5em 0 2.5em;
 }
 
 /* ===============================
