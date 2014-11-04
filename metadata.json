@@ -4,53 +4,34 @@
     "screenshot":"shapes.png",
     "templateType":"standard",
     "tags": { "en": ["minimal", "modern", "light", "social", "minimal", "classic"] },
-    "images":["images/feature-img.jpg"],
     "colorSwatches":
     {
         "Swatch 1": {
             "color1":"#ffffff",
-            "color2":"#F7F7F7",
-            "color3":"#ed6174",
-            "color4":"#5e5c58",
-            "color5":"#a19e99",
-            "color6":"#5e5c58",
-            "color7":"#ffffff"
+            "color2":"#4d1425",
+            "color3":"#6d081a",
+            "color4":"#161616",
+            "color5":"#929091",
+            "color6":"#ffffff",
+            "color7":"#6d081a"
         },
         "Swatch 2": {
             "color1":"#ffffff",
-            "color2":"#fff8ee",
-            "color3":"#91bbf2",
-            "color4":"#5e5c58",
-            "color5":"#a19e99",
-            "color6":"#5e5c58",
-            "color7":"#ffffff"
+            "color2":"#00313f",
+            "color3":"#4a5d04",
+            "color4":"#00313f",
+            "color5":"#6f7575",
+            "color6":"#ffffff",
+            "color7":"#00313f"
         },
         "Swatch 3": {
             "color1":"#ffffff",
-            "color2":"#e1e1e1",
-            "color3":"#ff9d4f",
-            "color4":"#5e5c58",
-            "color5":"#a19e99",
-            "color6":"#5e5c58",
-            "color7":"#ffffff"
-        },
-        "Swatch 4": {
-            "color1":"#ffffff",
-            "color2":"#eefeff",
-            "color3":"#738081",
-            "color4":"#5c6667",
-            "color5":"#a19e99",
-            "color6":"#5c6667",
-            "color7":"#ffffff"
-        },
-        "Swatch 5": {
-            "color1":"#ffffff",
-            "color2":"#f0ffee",
-            "color3":"#969C95",
-            "color4":"#626f64",
-            "color5":"#a19e99",
-            "color6":"#626f64",
-            "color7":"#ffffff"
+            "color2":"#38373c",
+            "color3":"#954949",
+            "color4":"#38373c",
+            "color5":"#555555",
+            "color6":"#ffffff",
+            "color7":"#38373c"
         }
     },
     "fontSwatch": {
