@@ -52,11 +52,23 @@
             li {
                 float: none;
                 display: inline-block;
+                a {
+                    color: @font-swatch6-color;
+                    &:hover {
+                        color: @font-swatch6-color-hover;
+                    }
+                }
             }
             li:hover ul {
                 border: 1px solid darken(@color-swatch2,3%);
                 li {
                     padding: 5px;
+                    a {
+                        color: @font-swatch6-color;
+                        &:hover {
+                            color: @font-swatch6-color-hover;
+                        }
+                    }
                     &:first-child {
                         padding-top: 10px;
                         @media @tablet {
