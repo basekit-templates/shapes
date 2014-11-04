@@ -3,9 +3,7 @@
     "thumbnail":"shapes.png",
     "screenshot":"shapes.png",
     "templateType":"standard",
-    "tags": {
     "tags": { "en": ["minimal", "modern", "light", "social", "minimal", "classic"] },
-    },
     "images":["images/feature-img.jpg"],
     "colorSwatches":
     {
