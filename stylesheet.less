@@ -360,24 +360,24 @@ hr {
 		}
 	}
 	.content-wrapper {
-		background: fadeout(@color-swatch1, 25%);
+		background-color: @color-swatch1;
 		text-shadow: none;
 		.title {
 			font-weight: @font-swatch3-font-weight;
-			&:after {
-				content: ":";
-			}
 		}
 		.title, .description {
 			color: @color-swatch5;
-			padding: 0 20px;
+            display: block;
 		}
 		.title {
-			padding-right: 0;
-			padding-left: 10px;
+            padding-right: 0;
+            padding-left: 0px;
+            padding-top: 15px;
 		}
 		.description {
 			padding-left: 0;
+            padding-top: 15px;
+            padding-bottom: 5px;
 		}
 	}
 }
